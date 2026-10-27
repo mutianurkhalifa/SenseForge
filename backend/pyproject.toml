@@ -1,2 +1,11 @@
+[project]
+name = "senseforge-backend"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "joblib",
+    "pymongo",
+]
+
 [tool.vercel]
 entrypoint = "api:app"
