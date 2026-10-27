@@ -3,8 +3,12 @@ name = "senseforge-backend"
 version = "0.1.0"
 dependencies = [
     "fastapi",
-    "joblib",
+    "uvicorn[standard]",
+    "pandas",
     "pymongo",
+    "python-dotenv",
+    "joblib",
+    "scikit-learn==1.9.1",
 ]
 
 [tool.vercel]
